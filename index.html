@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css"> 
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <a id="baslik" href="#">WEBSTUDIO</a>
+      <a class="baslik" href="#"><span id="web">WEB</span><span id="studio">STUDIO</span></a>
       <nav>
         <ul>
           <li><a href="#studio">Studio</a></li>
@@ -16,8 +17,10 @@
           <li><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
+      <address class="address">
       <a href="mailto:info@devstudio.com">info@devstudio.com</a>
       <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+    </address>
     </header>
     <main>
       <section class="birinci">
@@ -28,28 +31,28 @@
       <section class="onalti">
         <ul>
           <li>
-            <h2 class="uc">Strategy</h2>
+            <h3 class="uc">Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h2 class="uc">Punctuality</h2>
+            <h3 class="uc">Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h2 class="uc">Diligence</h2>
+            <h3 class="uc">Diligence</h3>
             <p>
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h2 class="uc">Technologies</h2>
+            <h3 class="uc">Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -104,7 +107,7 @@
       </section>
       <section>
         <h2>Our Portfolio</h2>
-        <ul>
+        <ul class="portfolio">
           <li>
             <img
               src="images/img-5.jpg"
@@ -113,7 +116,7 @@
               height="300"
             />
             <h3>Banking App</h3>
-            <p>App</p>
+            <p class="app">App</p>
           </li>
           <li>
             <img
@@ -123,7 +126,7 @@
               height="300"
             />
             <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <p class="app">Marketing</p>
           </li>
           <li>
             <img
@@ -133,7 +136,7 @@
               height="300"
             />
             <h3>Meditation App</h3>
-            <p>App</p>
+            <p class="app">App</p>
           </li>
           <li>
             <img
@@ -143,7 +146,7 @@
               height="300"
             />
             <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <p class="app">Marketing</p>
           </li>
           <li>
             <img
@@ -153,7 +156,7 @@
               height="300"
             />
             <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <p class="app">Design</p>
           </li>
           <li>
             <img
@@ -163,13 +166,13 @@
               height="300"
             />
             <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <p class="app">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a href="#">WEBSTUDIO</a>
+      <a class="baslik"><span id="web">WEB</span><span id="studioiki">STUDIO</span></a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
